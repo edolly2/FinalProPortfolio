@@ -1,0 +1,9 @@
+.site-brand-container {}
+
+.site-brand-link {
+  display: flex;
+}
+
+.site-brand-logo {
+  width: calc(4rem + 1.5vw);
+}

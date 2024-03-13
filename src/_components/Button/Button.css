@@ -1,0 +1,30 @@
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  /* width - old - 12rem */
+  /* height - old - 3.2rem  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-radius - old - 0.8rem; */
+  border-radius: 0.4rem;
+  background-color: transparent;
+  color: rgb(57, 15, 61);
+  border: 2px solid rgb(92, 152, 217);
+  /* padding - old - 0.8rem ; */
+  padding: 0.4rem;
+
+}
+
+.btn:hover {
+  background-color: #5c98d9;
+  transform: scale(1.1);
+}
+
+.btn:disabled {
+  background-color: rgb(43, 43, 43);
+  cursor: default;
+  transform: scale(1);
+  color: rgb(204, 204, 204);
+  border: 2px solid rgb(43, 43, 43);
+}

@@ -1,0 +1,47 @@
+/* ******************************** */
+/* ***********CONTACT FORM********* */
+/* ******************************** */
+
+.form {
+  display: flex;
+}
+
+.form-group {}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--margin-sm);
+  margin-bottom: var(--margin-sm);
+}
+
+.form-label {}
+
+.form-input {
+  border-radius: var(--border-radius);
+  padding: var(--padding-xs);
+  padding-left: var(--padding-md);
+  border: 1px solid rgba(156, 156, 156, 0.2);
+}
+
+.form-input:focus {
+  outline: none;
+  /* outline: 1px solid rgba(156, 156, 156, 0.2); */
+  box-shadow: inset 0 0 7px rgba(156, 156, 156, 0.3);
+}
+
+.form-textarea {
+  border-radius: var(--border-radius);
+  resize: none;
+}
+
+@media screen and (min-width: 500px) {
+  .form-control {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .form-label {
+    margin-right: var(--margin-sm);
+  }
+}
