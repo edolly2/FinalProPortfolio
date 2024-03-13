@@ -2,13 +2,13 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import PageLayout from './_layout/PageLayout/PageLayout';
-import HomePage from '../src/_Pages/HomePage/HomePage';
-import ContactPage from '../src/_Pages/ContactPage/ContactPage';
-import AboutPage from '../src/_Pages/AboutPage/AboutPage';
-import SkillsPage from '../src/_Pages/SkillsPage/SkillsPage';
-import ProjectsPage from '../src/_Pages/ProjectsPage/ProjectsPage';
-import AllWebsitesPage from '../src/_Pages/AllWebsitesPage/AllWebsitesPage';
-import NotFoundPage from '../src/_Pages/NotFoundPage/NotFoundPage';
+import HomePage from './_pages/HomePage/HomePage';
+import ContactPage from './_pages/ContactPage/ContactPage';
+import AboutPage from './_pages/AboutPage/AboutPage';
+import SkillsPage from './_pages/SkillsPage/SkillsPage';
+import ProjectsPage from './_pages/ProjectsPage/ProjectsPage';
+import AllWebsitesPage from './_pages/AllWebsitesPage/AllWebsitesPage';
+import NotFoundPage from './_pages/NotFoundPage/NotFoundPage';
 
 function App() {
   // const [count, setCount] = useState(0);

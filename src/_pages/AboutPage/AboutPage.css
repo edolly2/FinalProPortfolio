@@ -1,0 +1,41 @@
+.ap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .ap-container {
+    flex-direction: row;
+  }
+}
+
+.ap-img-container {
+  width: 50%;
+  text-align: center;
+}
+
+.ap-img {
+  /* max-width: 395px; */
+  width: 30vw;
+}
+
+.ap-info-container {
+  width: 40%;
+}
+
+.ap-info-title {}
+
+.ap-info-content {
+  background-color: rgba(119, 119, 119, 0.6);
+  backdrop-filter: blur(5px);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+  padding: 3.2rem;
+  border-radius: 0.4rem;
+}
+
+.ap-info-content .show-more-container {}
+
+.show-icon {
+  margin-left: 0.4rem;
+}
