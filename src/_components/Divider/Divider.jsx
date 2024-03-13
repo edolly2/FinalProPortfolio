@@ -1,7 +1,7 @@
 import './Divider.css';
 
-const Divider = () => {
-  return <div className='divider'></div>;
+const Divider = (props) => {
+  return <div className='divider' style={props.style}></div>;
 };
 
 export default Divider;

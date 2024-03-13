@@ -1,4 +1,5 @@
 import './Footer.css';
+import '../Navigation/GlobalNavigation.css';
 import SiteBrand from '../../_components/SiteBrand/SiteBrand';
 import { FaGithub, FaLinkedinIn, FaFacebook, FaTwitter } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
@@ -17,8 +18,8 @@ const Footer = () => {
           <span className='primary'>/&gt;</span>
         </h2>
       </div>
-      <Divider />
-      <div className='footer-list-container'>
+      <Divider style={{ margin: '1.6rem auto' }} />
+      <div className='footer-lists-container'>
         <div className='footer-section'>
           <h5>
             <span className='primary'>{'//'}</span> SITE MAP
