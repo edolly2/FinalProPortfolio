@@ -1,7 +1,7 @@
 // import { useState } from 'react';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import PageLayout from './_Layout/PageLayout/PageLayout';
+import PageLayout from './_layout/PageLayout/PageLayout';
 import HomePage from '../src/_Pages/HomePage/HomePage';
 import ContactPage from '../src/_Pages/ContactPage/ContactPage';
 import AboutPage from '../src/_Pages/AboutPage/AboutPage';

@@ -1,0 +1,10 @@
+.page-layout {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 1.6rem;
+  overflow-x: hidden;
+  /* background-color: blue; */
+  /* max-width: 1080px; */
+  /* margin: 0 auto; */
+  /* min-height: 85vh; */
+}
