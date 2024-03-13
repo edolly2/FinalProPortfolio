@@ -1,5 +1,5 @@
-import Card from '../../_Components/Card/Card';
-import PageContent from '../../_Layout/PageContent/PageContent';
+import Card from '../../_components/Card/Card';
+import PageContent from '../../_layout/PageContent/PageContent';
 import './HomePage.css';
 
 const HomePage = () => {

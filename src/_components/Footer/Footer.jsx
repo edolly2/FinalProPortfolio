@@ -1,5 +1,5 @@
 import './Footer.css';
-import SiteBrand from '../../_Components/SiteBrand/SiteBrand';
+import SiteBrand from '../../_components/SiteBrand/SiteBrand';
 import { FaGithub, FaLinkedinIn, FaFacebook, FaTwitter } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 import Button from '../Button/Button';

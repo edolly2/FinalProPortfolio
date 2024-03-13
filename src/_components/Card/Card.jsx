@@ -1,5 +1,5 @@
 import './Card.css';
-import Headshot from '../../_Assets/ProfileImages/me-headshot.png';
+import Headshot from '../../_assets/ProfileImages/me-headshot.png';
 import Divider from '../Divider/Divider';
 
 const Card = () => {

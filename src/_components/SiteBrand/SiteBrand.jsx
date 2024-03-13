@@ -1,5 +1,5 @@
 import './SiteBrand.css';
-import Logo from '../../_Assets/Logo/my-logo.png';
+import Logo from '../../_assets/Logo/my-logo.png';
 import { Link } from 'react-router-dom';
 
 const SiteBrand = (props) => {

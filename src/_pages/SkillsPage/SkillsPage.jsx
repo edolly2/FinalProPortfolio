@@ -1,6 +1,6 @@
 import './SkillsPage.css';
-import PageContent from '../../_Layout/PageContent/PageContent';
-import PageTitle from '../../_Layout/PageTitle/PageTitle';
+import PageContent from '../../_layout/PageContent/PageContent';
+import PageTitle from '../../_layout/PageTitle/PageTitle';
 
 const SkillsPage = () => {
   return (

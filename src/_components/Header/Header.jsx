@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import './Header.css';
 import { useState, useEffect } from 'react';
-import SiteBrand from '../../_Components/SiteBrand/SiteBrand';
-import MobileNav from '../../_Components/Navigation/MobileNavigation/MobileNav';
-import MobileMenu from '../../_Components/Navigation/MobileNavigation/MobileMenu';
-import DesktopNav from '../../_Components/Navigation/DesktopNavigation/DesktopNav';
+import SiteBrand from '../../_components/SiteBrand/SiteBrand';
+import MobileNav from '../../_components/Navigation/MobileNavigation/MobileNav';
+import MobileMenu from '../../_components/Navigation/MobileNavigation/MobileMenu';
+import DesktopNav from '../../_components/Navigation/DesktopNavigation/DesktopNav';
 
 const Header = (props) => {
   const [width, setWidth] = useState(window.innerWidth);

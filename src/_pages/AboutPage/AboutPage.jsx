@@ -1,7 +1,7 @@
 import './AboutPage.css';
-import AboutImg from '../../_Assets/ProfileImages/me-pose.png';
-import PageContent from '../../_Layout/PageContent/PageContent';
-import PageTitle from '../../_Layout/PageTitle/PageTitle';
+import AboutImg from '../../_assets/ProfileImages/me-pose.png';
+import PageContent from '../../_layout/PageContent/PageContent';
+import PageTitle from '../../_layout/PageTitle/PageTitle';
 import { useState } from 'react';
 import { BsFillCaretDownFill, BsFillCaretUpFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
